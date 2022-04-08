@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My cool portfolio
+          My coolio portfolio
         </h1>
       </main>
 
