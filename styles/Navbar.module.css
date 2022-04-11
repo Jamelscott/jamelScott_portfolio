@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+.container{
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left: 50%;
+    transform: translate(-50%);
+    height: 60px;
+    background-color: var(--secondary-color);
+    font-family: poppins;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+    max-width: 1090px;
+}
+.centerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-top: 0;
+    padding-top: 0px;
+    width: 800px;
+    padding-bottom: 5px;
+}
+.centerDivText{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    color: var(--tertiary-color);
+    background-color: var(--seondary-color);
+    height: 28px;
+    width: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    /* text-decoration-color: black; */
+    font-weight: 400;
+    font-size: 16px;
+    transition: all .4s ease;
+}
+.centerDivText:hover{
+    background-color: var(--secondary-color);
+    width: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 2px;
+    text-decoration-color: white;
+    font-weight: -500;
+    transition: all .4s ease;
+}
+.linksDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-right: 20px;
+    width: 100px;
+}
+.resumeDiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    margin-left: 20px;
+    padding-bottom: 8px;
+
+}
+.resumeButton{
+    background-color: var(--accent-color);
+    color: white;
+    font-family: poppins;
+    font-style: italic;
+    border-radius: 6px;
+    width: 150px;
+    height: 35px;
+    box-shadow: 1px 1px 1px black;
+    transition: all .4s ease;
+}
+.resumeButton:hover{
+    box-shadow: 2px 2px 2px black;
+    transition: all .4s ease;
+}
+.resumeButton:active{
+    box-shadow: inset 2px 2px 2px black;
+}

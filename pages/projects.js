@@ -2,7 +2,7 @@ export const projects = [
   {
     name: 'DevelUp +',
     description:
-      'A flashcard builder and study tool. Use community decks or create your own.',
+      "Study from a range of community flashcard decks or create your own. Need more active recall and spaced repitition? We've got you covered.",
     gitHub: 'https://github.com/Jamelscott/Develup-client',
     deploy: 'https://cheerful-choux-1b67ff.netlify.app/',
     image: "/develup.PNG"
@@ -10,15 +10,15 @@ export const projects = [
   {
     name: 'GitRamen',
     description:
-      "Find the best Ramen in the city. Rate and review top ramen in Vancouver or see what others have to say before committing to a dinner reservation.",
+      "Find the best ramen in the city based on our algorithm. Rate and review on GitRamen when your bowl is empty.",
     gitHub: 'https://github.com/Jamelscott/GitRamen',
     deploy: 'https://git-ramen.herokuapp.com/',
     image: "/ramen.PNG"
   },
   {
-    name: 'Crossword Countdown',
+    name: 'LFG - Lookign for Group',
     description:
-      'Three levels of Crossword fun with a twist!',
+      'Where gamers go to party up. Pick your game, party size and wait for members to join',
     gitHub: 'https://github.com/Jamelscott/WordSearch-Countdown',
     deploy: 'https://jamelscott.github.io/WordSearch-Countdown/',
     image: "/countdown.PNG"

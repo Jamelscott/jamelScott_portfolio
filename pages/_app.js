@@ -9,9 +9,12 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>jamelScott</title>
       </Head>
-      <Navbar />
-      <Component {...pageProps} />
-      <Footer />
+      <div style={{display: "flex", justifyContent:"center", flexDirection:"column", backgroundColor: "#293241", height:"100vh"}}>
+
+        <Navbar />
+        <Component {...pageProps} />
+        <Footer />
+      </div>
 
     </>
   );
