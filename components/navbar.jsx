@@ -16,17 +16,23 @@ function Navbar() {
       </div>
       <div className={styles.linksDiv}>
         <img
+        className={styles.githubButton}
           src="/small_icons/small-github.png"
           alt="github Icon"
           width="25px"
         />
 
         <img
+          className={styles.githubButton}
           src="/small_icons/small-linkedin.png"
           alt="github Icon"
           width="25px"
         />
-        <img src="/small_icons/small-mail.png" alt="github Icon" width="25px" />
+        <img 
+        className={styles.githubButton}
+        src="/small_icons/small-mail.png" 
+        alt="github Icon" 
+        width="25px" />
       </div>
       {/* <Link href="/">Home</Link>
             <Link href="/projects">Projects</Link> */}

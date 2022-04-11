@@ -38,6 +38,7 @@
     font-weight: 300;
     box-shadow: 2px 2px 2px black;
     transition: all .4s ease;
+    font-size: 12px;
     
 }
 .githubButton{
@@ -53,20 +54,26 @@
     font-weight: 300;
     box-shadow: 2px 2px 2px black;
     transition: all .4s ease;
+    font-size: 12px;
 }
 .githubButton:hover{
     box-shadow: 4px 4px 4px black;
     transition: all .4s ease;
+    font-size: 13px;
 }
 .deployButton:hover{
     box-shadow: 4px 4px 4px black;
     transition: all .4s ease;
+    font-size: 13px;
 }
 .deployButton:active{
     box-shadow: inset 4px 4px 4px black;
+    font-size: 13px;
 }
 .githubButton:active{
     box-shadow: inset 4px 4px 4px black;
+    font-size: 13px;
+
 }
 
 .subtitle{

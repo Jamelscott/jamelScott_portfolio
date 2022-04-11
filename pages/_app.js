@@ -2,16 +2,14 @@ import '../styles/globals.css';
 import Navbar from '../components/navbar';
 import Head from 'next/head';
 import Footer from '../components/footer';
+import About from './about';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <title>jamelScott</title>
-      </Head>
-      <div style={{display: "flex", justifyContent:"center", flexDirection:"column", backgroundColor: "#293241", height:"100vh"}}>
-
+        <div style={{backgroundColor: "#293241", height: "100%"}}>
         <Navbar />
+        <About />
         <Component {...pageProps} />
         <Footer />
       </div>

@@ -4,27 +4,21 @@ import styles from '../styles/About.module.css';
 
 export default function About() {
   return (
-      <div
-        className={styles.blueBack}
-        style={{ backgroundColor: 'white' }}
-      >
-        <h1 className={styles.tealText}>About Me</h1>
-
-        <p>I am super cool</p>
-        {/* an image tag would have also worked -- just no SSR caching */}
-        <Image
-          src="/vercel.svg"
-          alt="vercel logo"
-          width="500px"
-          height="500px"
-        />
-        {/* laoding an image from another hosting domain */}
-        <Image
-          src="https://placekitten.com/400/300"
-          alt="a picture of a cat"
-          width="100%"
-          height="100%"
-        />
+      <div className={styles.container}>
+        <div className={styles.aboutLeft}>
+        <img className='waveEmoji' src="/Emoji.png" alt="waving hand emoji" width="40"/>
+          <h1 className={styles.aboutText} style={{fontSize: "30px"}}>Hello, I'm Jamel.</h1>
+          <h1 className={styles.aboutText} style={{fontSize: "100px"}}>Front-End</h1>
+          <h1 className={styles.aboutText} style={{fontSize: "100px"}}>Web Developer</h1>
+          <h1 className={styles.aboutText} style={{fontSize: "30px"}}>based in Vancouver, BC.</h1>
+        </div>
+        <div className={styles.aboutRight}>
+          <Image
+          src="/Group 11.PNG"
+          width="400px"
+          height="400px"
+          />
+        </div>
       </div>
   );
 }

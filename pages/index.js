@@ -23,10 +23,10 @@ export default function Projects() {
         </div>
         {/* LINKS */}
         <div className={styles.links}>
-          <a id="live" href={project.deploy}>
-            <button className={styles.deployButton}>View Live</button>
+          <a id="live" href={project.deploy} target="_blank">
+            <button  className={styles.deployButton}>View Live</button>
           </a>
-          <a id="git" href={project.gitHub}>
+          <a id="git" href={project.gitHub} target="_blank">
             <button className={styles.githubButton}>Github Repo</button>
           </a>
         </div>

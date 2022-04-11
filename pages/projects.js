@@ -4,7 +4,7 @@ export const projects = [
     description:
       "Study from a range of community flashcard decks or create your own. Need more active recall and spaced repitition? We've got you covered.",
     gitHub: 'https://github.com/Jamelscott/Develup-client',
-    deploy: 'https://cheerful-choux-1b67ff.netlify.app/',
+    deploy: "https://cheerful-choux-1b67ff.netlify.app",
     image: "/develup.PNG"
   },
   {

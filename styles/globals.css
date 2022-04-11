@@ -100,3 +100,26 @@ a {
     height: 100px;
     color: var(--)
 }
+.waveEmoji{
+  animation: rotation 1s linear;
+  transition: all 0.3s ease-in-out 0s;
+}
+.waveEmoji:hover{
+    cursor: default;
+    transform: rotate(60deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+@keyframes rotation {
+  25% {
+    transform: rotate(-40deg);
+  }
+  50% {
+    transform: rotate(60deg);
+  }
+  75% {
+    transform: rotate(-40deg);
+  }  
+  100% {
+    transform: rotate(0deg);
+    }
+}
