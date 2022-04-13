@@ -15,7 +15,7 @@ export default function About() {
         <div className={styles.aboutRight}>
           <Image
           alt="a photo of jamel with some graphics"
-          src="/Group-11.PNG"
+          src="/group-11.png"
           width="400px"
           height="400px"
           />

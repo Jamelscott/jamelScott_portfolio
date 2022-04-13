@@ -21,7 +21,6 @@ function Navbar() {
           alt="github Icon"
           width="25px"
         />
-
         <img
           className={styles.githubButton}
           src="/small_icons/small-linkedin.png"
