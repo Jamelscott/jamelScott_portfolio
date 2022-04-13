@@ -1,4 +1,4 @@
-import { projects } from './projects';
+import { projects } from '../projects';
 import styles from '../styles/Index.module.css';
 import Image from 'next/image';
 export default function Projects() {
