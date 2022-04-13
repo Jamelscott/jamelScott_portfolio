@@ -6,7 +6,7 @@ export default function About() {
   return (
       <div className={styles.container}>
         <div className={styles.aboutLeft}>
-        <img className='waveEmoji' src="/Emoji.png" alt="waving hand emoji" width="40"/>
+        {/* <img className='waveEmoji' src="/Emoji.png" alt="waving hand emoji" width="40"/> */}
           <h1 className={styles.aboutText} style={{fontSize: "30px"}}>Hello, Im Jamel.</h1>
           <h1 className={styles.aboutText} style={{fontSize: "100px"}}>Front-End</h1>
           <h1 className={styles.aboutText} style={{fontSize: "100px"}}>Web Developer</h1>
