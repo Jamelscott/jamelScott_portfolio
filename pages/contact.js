@@ -8,7 +8,7 @@ function Contact() {
       </div>
       <div className={styles.contactRight}>
         <h2 style={{ color: 'white' }}>
-          Contact me, let's make magic together.
+          Contact me, lets make magic together.
         </h2>
         <form className={styles.contactForm}>
           <label htmlFor="contact-name"></label>

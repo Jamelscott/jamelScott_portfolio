@@ -15,7 +15,7 @@ function Navbar() {
           <a href="#contact-me"><button className={styles.centerDivText}>Contact</button></a>
       </div>
       <div className={styles.linksDiv}>
-      <a target="_blank" href="https://github.com/Jamelscott">
+      <a target="_blank" rel="noreferrer" href="https://github.com/Jamelscott">
         <img
         className={styles.githubButton}
           src="/small_icons/small-github.png"
@@ -23,7 +23,7 @@ function Navbar() {
           width="25px"
         />
         </a>
-        <a target="_blank" href="https://www.linkedin.com/in/jamelfadel/">
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jamelfadel/">
         <img
           className={styles.githubButton}
           src="/small_icons/small-linkedin.png"
