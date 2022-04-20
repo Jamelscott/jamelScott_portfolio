@@ -1,0 +1,78 @@
+.contactContainer{
+    display: flex;
+    justify-content: space-between;
+    width: var(--overall-width);
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+.contactLeft{
+    color: var(--accent-color);
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 32px;
+}
+.contactRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--accent-color);
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: var(--accent-color);
+    font-size: 22px;
+    font-weight: 600;
+    gap: 20px;
+    
+}
+
+.contactInput{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 24px;
+    width: 600px;
+    height: 80px;
+    text-align: right;
+    padding-right: 20px;
+    background: #9ea3b02f;
+    border-radius: 8px;
+    border: none;
+}
+.contactInput:hover{
+    background: #9ea3b06e;
+}
+.contactInput:active{
+    background: #9ea3b06e;
+}
+.sendButton{
+    font-weight: 500;
+    font-family: 'Poppins';
+    padding-right: 20px;
+    text-align: end;
+    width:250px; 
+    background-color: #9EA3B0;
+    color: white;
+    height: 80px;
+    font-size: 22px;
+    border-radius: 8px;
+    border: none;
+    transition: all .4s ease;
+}
+.sendButton:hover{
+    background-color: #2a6432;
+    color: white;
+}
+.sendButton:hover{
+    color: #2a6432;
+}
+.sendButton:active{
+    color: #2a6432;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

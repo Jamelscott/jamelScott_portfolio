@@ -26,4 +26,61 @@ export const projects = [
 
 ];
 
+export const languages = [
+  {
+    name: "react-logo",
+    src: '/languages_icons/react.png'
+  },
+  {
+    name: "html5-logo",
+    src: '/languages_icons/html_5.png'
+  },
+  {
+    name: "javascript-logo",
+    src: '/languages_icons/js.png'
+  },
+  {
+    name: "python-logo",
+    src: '/languages_icons/python.png'
+  },
+  {
+    name: "nodejs-logo",
+    src: '/languages_icons/node_js.png'
+  },
+  {
+    name: "npm-logo",
+    src: '/languages_icons/npm.png'
+  },
+  {
+    name: "express-logo",
+    src: '/languages_icons/express.png'
+  },
+  {
+    name: "mongodb-logo",
+    src: '/languages_icons/mongodb.png'
+  },
+  {
+    name: "postgresql-logo",
+    src: '/languages_icons/postgresql.png'
+  },
+  {
+    name: "mysql-logo",
+    src: '/languages_icons/mysql.png'
+  },
+  {
+    name: "nextjs-logo",
+    src: '/languages_icons/nextjs.png'
+  },
+  {
+    name: "vscode-logo",
+    src: '/languages_icons/vscode.png'
+  },
+  {
+    name: "git-logo",
+    src: '/languages_icons/git.png'
+  },
+
+
+]
+
 

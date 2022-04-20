@@ -3,10 +3,12 @@
 
 .allProjectsDiv{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 100px;
+    width: var(--overall-width);
+    margin: 0 auto;
 }
 .projectDiv{
     display: flex;
@@ -15,11 +17,16 @@
     background-color: var(--secondary-color);
     width: 350px;
     height: 550px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
-    margin: 0 20px 0 20px;
+    transition: all .4s ease;
+    /* margin: 0 20px 0 20px; */
+}
+.projectDiv:hover{
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    transform: scale(1.01);
 }
 .deployButton{
     font-family: 'Poppins';
@@ -98,4 +105,9 @@
     height: 100px;
     color: var(--accent-color);
     font-weight: 400;
+}
+
+.project-image{
+    width: 500px;
+    height: 1000px;
 }

@@ -1,11 +1,22 @@
 .container{
     display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
     justify-content: space-between;
-    margin: 0px 150px 0px 175px;
+    margin: 0px 150px 100px 175px;
     margin-top: 100px;
     color: #E0FBFC;
+    width: var(--overall-width);
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 .aboutText{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.about_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

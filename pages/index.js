@@ -7,12 +7,13 @@ export default function Projects() {
  
     return (
       <div key={`project-div-${idx}`} className={styles.projectDiv}>
-        {/* <Image
+        <Image
+          className='project-image'
           src={project.image}
           alt="project image"
-          width="400"
+          width="100%"
           height="200"
-        /> */}
+        />
         {/* SUBTITLE */}
         <div >
           <h1 className={styles.subtitle}>{project.name}</h1>
@@ -34,5 +35,10 @@ export default function Projects() {
     );
   });
 
-  return <div className={styles.allProjectsDiv}>{allProjects}</div>;
+  return (
+    <>
+    <h2 id="featured-projects">Featured Projects..</h2>
+  <div className={styles.allProjectsDiv}>{allProjects}</div>
+    </>
+  )
 }
