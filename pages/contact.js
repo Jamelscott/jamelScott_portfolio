@@ -11,11 +11,11 @@ function Contact() {
           Contact me, let's make magic together.
         </h2>
         <form className={styles.contactForm}>
-          <label for="contact-name"></label>
+          <label htmlFor="contact-name"></label>
           <input className={styles.contactInput} type="input" placeholder="Name:" />
-          <label for="contact-email"></label>
+          <label htmlFor="contact-email"></label>
           <input className={styles.contactInput}  type="input" placeholder="Email:" />
-          <label for="contact-message"></label>
+          <label htmlFor="contact-message"></label>
           <textarea style={{height: "120px", paddingTop:"10px"}} className={styles.contactInput}  type="input" placeholder="Message:" />
           <input className={styles.sendButton} type="submit" value="Send" />
         </form>

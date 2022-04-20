@@ -7,7 +7,7 @@ function Languages() {
     const mappedImages = languages.map((element, idx)=>{
 
         return (
-            <div>
+            <div key={`logo-${idx}`}>
                 <Image
                 className={styles.logos}
                 alt={element.name}
