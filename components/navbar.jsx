@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className={styles.container}>
       <div className={styles.resumeDiv}>
-        <a target="_blank" href="https://docs.google.com/document/d/19MwImIB9izuaz17Qdk7iSR5Hz_AvMy7XFyiYc4s8SO8/edit?usp=sharing"><button className={styles.resumeButton}>Resume</button></a>
+        <a rel="noreferrer" target="_blank" href="https://docs.google.com/document/d/19MwImIB9izuaz17Qdk7iSR5Hz_AvMy7XFyiYc4s8SO8/edit?usp=sharing"><button className={styles.resumeButton}>Resume</button></a>
       </div>
       <div className={styles.centerDiv}>
           <a href="#"><button className={styles.centerDivText}>About</button></a>
