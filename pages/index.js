@@ -9,9 +9,10 @@ export default function Projects() {
           className={styles.projectImage}
           src={project.image}
           alt="project image"
-          width="100%"
+          width="300"
           height="200"
         />
+        {/* <img src={project.image}></img> */}
         <div>
         {/* SUBTITLE */}
         <div>
