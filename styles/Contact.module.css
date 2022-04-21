@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 .contactContainer{
     display: flex;
     justify-content: space-between;
@@ -9,7 +8,6 @@
 }
 .contactLeft{
     color: var(--accent-color);
-    font-family: 'Poppins';
     font-weight: 300;
     font-size: 28px;
     line-height: 32px;
@@ -35,7 +33,6 @@
 }
 
 .contactInput{
-    font-family: 'Poppins';
     color: white;
     font-size: 24px;
     width: 600px;
@@ -54,7 +51,6 @@
 }
 .sendButton{
     font-weight: 500;
-    font-family: 'Poppins';
     padding-right: 20px;
     text-align: end;
     width:250px; 
