@@ -2,13 +2,16 @@
 
 
 .allProjectsDiv{
+    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 100px;
     width: var(--overall-width);
     margin: 0 auto;
+    color: var(--accent-color)
 }
 .projectDiv{
     display: flex;

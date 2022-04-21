@@ -83,8 +83,9 @@
     /* font-style: italic; */
     font-size: 15px;
     border-radius: 6px;
-    width: 150px;
-    height: 35px;
+    width: 120px;
+    margin-top: 5px;
+    height: 40px;
     box-shadow: 1px 1px 1px black;
     transition: all .4s ease;
 }
