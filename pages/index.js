@@ -6,12 +6,13 @@ export default function Projects() {
     return (
       <div key={`project-div-${idx}`} className={styles.projectDiv}>
         <Image
-          className="project-image"
+          className={styles.projectImage}
           src={project.image}
           alt="project image"
           width="100%"
           height="200"
         />
+        <div>
         {/* SUBTITLE */}
         <div>
           <h1 className={styles.subtitle}>{project.name}</h1>
@@ -38,6 +39,7 @@ export default function Projects() {
           >
             <button className={styles.githubButton}>Github Repo</button>
           </a>
+        </div>
         </div>
       </div>
     );

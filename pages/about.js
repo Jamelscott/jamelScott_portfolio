@@ -8,7 +8,7 @@ export default function About() {
         <div className={styles.aboutLeft}>
         <Image className='waveEmoji' src="/Emoji.png" alt="waving hand emoji" width="40" height="40"/>
           <h1 className={styles.aboutText} style={{fontSize: "30px"}}>Hello, Im Jamel.</h1>
-          <h1 className={styles.aboutText} style={{fontSize: "100px"}}>Front-End</h1>
+          <h1 className={styles.aboutText} style={{fontSize: "100px"}}>Full-Stack</h1>
           <h1 className={styles.aboutText} style={{fontSize: "100px"}}>Web Developer</h1>
           <h1 className={styles.aboutText} style={{fontSize: "30px"}}>based in Vancouver, BC.</h1>
         </div>

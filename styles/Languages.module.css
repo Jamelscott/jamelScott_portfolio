@@ -2,6 +2,7 @@
     color: var(--accent-color);
     display: flex;
     flex-direction: column;
+
     max-width: var(--overall-width);
     justify-content: flex-start;
     margin: 0 auto;
@@ -10,8 +11,11 @@
 }
 .languages{
     margin: 0 auto;
+    margin-top: 20;
     display: flex;
-    gap: 10px;
+    /* justify-content: space; */
+    gap: 82px;
+    flex-wrap: wrap;
     /* height: 10000PX; */
     width: var(--overall-width);
 }

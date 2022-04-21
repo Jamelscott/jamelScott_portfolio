@@ -11,15 +11,16 @@
     color: var(--accent-color)
 }
 .projectDiv{
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: var(--secondary-color);
     width: 350px;
-    height: 550px;
+    height: 500px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    padding: 20px;
+    /* padding: 20px; */
     font-family: 'Poppins', sans-serif;
     transition: all .4s ease;
     /* margin: 0 20px 0 20px; */
@@ -37,12 +38,12 @@
     justify-content: center;
     align-items: center;
     padding: 12px 25px;
-    color: aliceblue;
+    color: BLACK;
     border-color: var(--accent-color);
     border-style: solid;
     width: 140px;
     height: 50px;
-    font-weight: 300;
+    font-weight: 600;
     box-shadow: 2px 2px 2px black;
     transition: all .4s ease;
     font-size: 12px;
@@ -84,21 +85,23 @@
 }
 
 .subtitle{
+    /* text-align: center; */
     font-size: 24px;
     color: var(--accent-color);
-    margin: 5px;
+    margin: 5px 20px 5px 20px;
     font-weight: 200;
 
 }
 .paragraphDiv{
     height:150px;
-    margin: 5px;
+    margin: 0px 20px 0px 20px;
     color: var(--tertiary-color);
     font-weight: 100;
 }
 .links{
     display: flex;
     justify-content: center;
+    margin: 0px 20px 20px 20px;
     gap: 20px;
 }
 .description{
@@ -107,7 +110,8 @@
     font-weight: 400;
 }
 
-.project-image{
+.projectImage{
     width: 500px;
     height: 1000px;
+    border-radius: 10px 10px 0 0;
 }

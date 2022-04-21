@@ -4,11 +4,11 @@ function Contact() {
   return (
     <div className={styles.contactContainer}>
       <div className={styles.contactLeft}>
-        <h2 style={{fontSize:"24px"}} id='contact-me'>Want to know more?</h2>
       </div>
       <div className={styles.contactRight}>
-        <h2 style={{ color: 'white' }}>
-          Contact me, lets make magic together.
+        <h2 style={{fontSize:"24px", marginTop:0, textAlign: 'right'}} id='contact-me'>Want to know more?</h2>
+        <h2 style={{marginTop:0 }}>
+          Contact me, lets make <span className={styles.rainbow}>magic</span> together.
         </h2>
         <form action="https://formsubmit.co/itsjamelscott@gmail.com" method="POST" className={styles.contactForm}>
           {/* Name */}
