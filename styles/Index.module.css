@@ -27,7 +27,7 @@
 }
 .projectDiv:hover{
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
-    transform: scale(1.01);
+    transform: scale(1.04);
 }
 .deployButton{
     font-family: 'Poppins';
@@ -77,11 +77,12 @@
 .deployButton:active{
     box-shadow: inset 4px 4px 4px black;
     font-size: 13px;
+    transition: all .4s ease;
 }
 .githubButton:active{
     box-shadow: inset 4px 4px 4px black;
     font-size: 13px;
-
+    transition: all .4s ease;
 }
 
 .subtitle{
