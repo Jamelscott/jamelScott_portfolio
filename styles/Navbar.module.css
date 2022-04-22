@@ -54,7 +54,7 @@
 }
 .linksDiv{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 12px;
     margin-right: 20px;
@@ -63,6 +63,8 @@
 
 .githubButton{
     transition: all .4s ease;
+    width: 30px;
+
 }
 .githubButton:hover{
    transform: scale(1.25, 1.25) ;

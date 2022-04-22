@@ -28,32 +28,35 @@ function Navbar() {
       </div>
       <div className={styles.linksDiv}>
         <a
+          className={styles.githubButton}
           target="_blank"
           rel="noreferrer"
           href="https://github.com/Jamelscott"
         >
           <Image
             height="25px"
-            className={styles.githubButton}
             src="/small_icons/small-github.png"
             alt="github Icon"
             width="25px"
           />
         </a>
         <a
+          className={styles.githubButton}
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/jamelfadel/"
         >
           <Image
             height="25px"
-            className={styles.githubButton}
             src="/small_icons/small-linkedin.png"
             alt="github Icon"
             width="25px"
           />
         </a>
-        <a className={styles.githubButton} href="mailto: itsjamelscott@gmail.com">
+        <a 
+        className={styles.githubButton} 
+        href="mailto: itsjamelscott@gmail.com"
+        >
           <Image
             height="25px"
             src="/small_icons/small-mail.png"
