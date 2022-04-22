@@ -4,6 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  scroll-padding-top: 60px; /* height of sticky header */
   /* font-family: Poppins; */
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
@@ -137,4 +138,4 @@ a {
 }
 *{
   scroll-behavior: smooth !important;
-  }
+}

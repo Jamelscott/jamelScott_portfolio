@@ -47,8 +47,8 @@ export default function Projects() {
   });
 
   return (
-    <div className={styles.allProjectsDiv}>
-      <h2 style={{marginBottom:"0px"}} id="featured-projects">Featured Projects:</h2>
+    <div id="featured-projects" className={styles.allProjectsDiv}>
+      <h2 style={{marginBottom:"0px"}} >Featured Projects:</h2>
       <div className={styles.allProjectsDiv}>{allProjects}</div>
     </div>
   );

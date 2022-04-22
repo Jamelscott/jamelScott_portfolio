@@ -58,7 +58,11 @@
     align-items: center;
     gap: 12px;
     margin-right: 20px;
-    width: 100px;
+    width: 150px;
+}
+
+.githubButton{
+    transition: all .4s ease;
 }
 .githubButton:hover{
    transform: scale(1.25, 1.25) ;
@@ -68,7 +72,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100px;
+    width: 120px;
     margin-left: 20px;
     padding-bottom: 8px;
 
@@ -76,7 +80,6 @@
 .resumeButton{
     background-color: var(--accent-color);
     color: white;
-    /* font-style: italic; */
     font-size: 15px;
     border-radius: 6px;
     width: 120px;
@@ -95,7 +98,48 @@
     font-size: 13px;
 }
 
-.githubButton{
-    /* background-color: black; */
-    transition: all .4s ease;
+/* Nest Hub */
+@media screen and (max-width:1400px) {
+    
+    .container{
+        width: 800px;
+        margin-bottom: 40px;
+    }
+}
+/* iphone 12 Pro */
+@media screen and (max-width:395px) {
+    
+    .container{
+        width: 375px;
+    }
+    .resumeButton{
+        background-color: var(--accent-color);
+        color: white;
+        font-size: 10px;
+        border-radius: 6px;
+        width: 60px;
+        margin-top: 5px;
+        height: 30px;
+        box-shadow: 1px 1px 1px black;
+        transition: all .4s ease;
+    }
+    .centerDivText{
+        display: flex;
+        justify-content: center;
+        color: var(--tertiary-color);
+        background-color: var(--seondary-color);
+        height: 28px;
+        width: 20px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid black;
+        /* text-decoration-color: black; */
+        font-weight: 400;
+        font-size: 12px;
+        transition: all .4s ease;
+    }
+    .linksDiv{
+        display: none;
+    }
 }

@@ -53,18 +53,15 @@ function Navbar() {
             width="25px"
           />
         </a>
-        <a href="mailto: itsjamelscott@gmail.com">
+        <a className={styles.githubButton} href="mailto: itsjamelscott@gmail.com">
           <Image
             height="25px"
-            className={styles.githubButton}
             src="/small_icons/small-mail.png"
             alt="github Icon"
             width="25px"
           />
         </a>
       </div>
-      {/* <Link href="/">Home</Link>
-            <Link href="/projects">Projects</Link> */}
     </nav>
   );
 }

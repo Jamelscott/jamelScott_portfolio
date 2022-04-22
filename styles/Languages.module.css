@@ -13,6 +13,7 @@
     margin: 0 auto;
     margin-top: 20;
     display: flex;
+    justify-self: center;
     /* justify-content: space; */
     gap: 82px;
     flex-wrap: wrap;
@@ -34,4 +35,29 @@
 }
 .logos{
     transition: all .4s ease;
+}
+
+
+@media screen and (max-width: 1400px){
+    .languageContainer{
+        width: 800px;
+        margin-bottom: 20px;
+    }
+    .languages{
+        width: 800px;
+        gap: 56px;
+    }
+}
+
+@media screen and (max-width:395px) {
+    
+    .languageContainer{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .languages{
+        width: 400px;
+        gap: 56px;
+    }
+
 }
