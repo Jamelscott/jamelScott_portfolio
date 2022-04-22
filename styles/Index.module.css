@@ -121,7 +121,7 @@
 @media screen and (max-width: 1400px){
 
     .allProjectsDiv{
-        width: 800px;
+        width: var(--middle-width);
     }
 }
 

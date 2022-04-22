@@ -108,7 +108,7 @@
 @media screen and (max-width: 1400px){
 
     .contactContainer{
-        width: 800px;
+        width: var(--middle-width);
         margin-bottom: 20px;
     }
 
