@@ -1,11 +1,11 @@
 export const projects = [
   {
-    name: 'DevelUp +',
+    name: 'Crossword Countdown',
     description:
-      "Study from a range of community flashcard decks or create your own. Need more active recall and spaced repitition? We've got you covered.",
-    gitHub: 'https://github.com/Jamelscott/Develup-client',
-    deploy: "https://cheerful-choux-1b67ff.netlify.app",
-    image: "/develup.PNG"
+      "Enjoy some classic crossword puzzles at three difficulties. But don't let time go out!",
+    gitHub: 'https://github.com/Jamelscott/WordSearch-Countdown',
+    deploy: 'https://jamelscott.github.io/WordSearch-Countdown/',
+    image: "/countdown.PNG"
   },
   {
     name: 'GitRamen',
@@ -16,14 +16,13 @@ export const projects = [
     image: "/ramen.PNG"
   },
   {
-    name: 'LFG - Lookign for Group',
+    name: 'DevelUp +',
     description:
-      'Where gamers go to party up. Pick your game, party size and wait for members to join',
-    gitHub: 'https://github.com/Jamelscott/WordSearch-Countdown',
-    deploy: 'https://jamelscott.github.io/WordSearch-Countdown/',
-    image: "/countdown.PNG"
+      "Study from a range of community flashcard decks or create your own. Need more active recall and spaced repitition? We've got you covered.",
+    gitHub: 'https://github.com/Jamelscott/Develup-client',
+    deploy: "https://cheerful-choux-1b67ff.netlify.app",
+    image: "/develup.PNG"
   },
-
 ];
 
 export const languages = [
