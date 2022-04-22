@@ -17,8 +17,8 @@ export default function About() {
           className={styles.image}
           alt="a photo of jamel with graphics"
           src="/group-11.png"
-          width="400px"
-          height="400px"
+          width="375px"
+          height="375px"
           />
         </div>
       </div>

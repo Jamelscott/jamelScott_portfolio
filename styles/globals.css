@@ -29,6 +29,7 @@ a {
   --tertiary-color: #E0FBFC;
   --overall-width: 1300px;
   --middle-width: 800px;
+  --mobile-width:375px;
 }
 
 .maincolor{ 

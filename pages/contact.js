@@ -6,7 +6,7 @@ function Contact() {
       <div className={styles.contactLeft}>
       </div>
       <div className={styles.contactRight}>
-        <h2 style={{fontSize:"24px", marginTop:0, textAlign: 'right'}} id='contact-me'>Want to know more?</h2>
+        <h2 className={styles.knowMore}  id='contact-me'>Want to know more?</h2>
         <h2 style={{marginTop:0 }}>
           Contact me, lets make <span className={styles.rainbow}>magic</span> together.
         </h2>

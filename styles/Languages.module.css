@@ -41,23 +41,26 @@
     .languageContainer{
         width: var(--middle-width);
         margin-bottom: 20px;
+        text-align: center;
     }
     .languages{
         width: var(--middle-width);
-        gap: 56px;
+        gap: 40px;
+        justify-content: space-around;
     }
 }
 
-@media screen and (max-width:395px) {
+@media screen and (max-width:800px) {
     
     .languageContainer{
-        width: 400px;
+        width: var(--mobile-width);
         margin-bottom: 20px;
     }
     .languages{
-        width: 400px;
-        gap: 56px;
+        width: var(--mobile-width);
+        gap: 80px;
     }
+
 
 }
 

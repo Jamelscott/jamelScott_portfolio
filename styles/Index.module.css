@@ -125,11 +125,13 @@
     }
 }
 
-@media screen and (max-width:395px) {
+
+
+@media screen and (max-width:800px) {
     
     .allProjectsDiv{
-        width: 400px;
-        margin-bottom: 20px;
+        width: var(--mobile-width);
+        flex-direction: column;
     }
 
 }

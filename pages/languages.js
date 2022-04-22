@@ -27,7 +27,7 @@ function Languages() {
           alt="figma-logo"
           src="/languages_icons/figma.png"
           width="75px"
-          height={'100px'}
+          height={'100'}
         />
       </div>
     </div>

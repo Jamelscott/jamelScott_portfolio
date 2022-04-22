@@ -15,31 +15,22 @@
 
     .container{
         width: var(--middle-width);
-        margin-bottom: 20px;
-    }
-    .aboutTextBig{
-        font-size: 40px;
-        
-    }
-    .aboutTextSmall{
-        font-size: 18px;
-        
     }
 
 }
-@media screen and (max-width:395px) {
+@media screen and (max-width:800px) {
     
     .container{
-        width: 400px;
-        margin-bottom: 20px;
+        margin-top: 5px;
+        width: var(--middle-mobile);
+        justify-content: center;
     }
-    .aboutTextBig{
-        font-size: 40px;
-        
+    .uiDesigner{
+        display: none;
     }
-    .aboutTextSmall{
-        font-size: 18px;
-        
+    .fullStackDev{
+        display: none;
     }
+    
 
 }
