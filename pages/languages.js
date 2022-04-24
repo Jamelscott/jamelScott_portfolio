@@ -5,13 +5,15 @@ import styles from '../styles/Languages.module.css';
 function Languages() {
   const mappedImages = languages.map((element, idx) => {
     return (
-      <div key={`logo-${idx}`}>
+      <div className={styles.logoDiv} key={`logo-${idx}`}>
         <Image
           className={styles.logos}
           alt={element.name}
           src={element.src}
-          width="115px"
-          height="115px"
+          layout="fill"
+          objectFit="cover"
+          // width="115px"
+          // height="115px"
         />
       </div>
     );
@@ -22,13 +24,15 @@ function Languages() {
       <h2>Languages/Dev tools:</h2>
       <div className={styles.languages}>
         {mappedImages}
-        <Image
-          className={styles.logos}
-          alt="figma-logo"
-          src="/languages_icons/figma.png"
-          width="75px"
-          height={'100'}
-        />
+        <div className={styles.logoDivFigma}>
+          <Image
+            className={styles.logos}
+            alt="figma-logo"
+            src="/languages_icons/figma.png"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
       </div>
     </div>
   );

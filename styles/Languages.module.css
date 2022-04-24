@@ -23,6 +23,16 @@
     from { transform: rotateY(0deg) }
     to { transform: rotateY(360deg) }
 }
+.logoDiv{
+    position: relative;
+    width: 115px;
+    height: 115px;
+}
+.logoDivFigma{
+    position: relative;
+    width: 75px;
+    height: 100px;
+}
 .logos:hover{
     animation-name: spin3D;
     animation-duration: 2s;
@@ -58,7 +68,15 @@
     }
     .languages{
         width: var(--mobile-width);
-        gap: 80px;
+        gap: 50px;
+    }
+    .logoDiv{
+        width: 75px;
+        height: 75px;
+    }
+    .logoDivFigma{
+        width: 52px;
+        height: 78px;
     }
 
 

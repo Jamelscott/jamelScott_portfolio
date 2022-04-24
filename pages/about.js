@@ -1,26 +1,65 @@
 //import service side rendering to cache image tags
 import Image from 'next/image';
 import styles from '../styles/About.module.css';
-
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+import {useEffect} from 'react'
+import { useAnimation } from 'framer-motion';
 export default function About() {
+
+
+  const {ref, inView} = useInView({
+    threshold: 0.2
+  }) // inView = boolean (in view or not) // ref = reference to element
+  const animation = useAnimation() // initiate useAnimation hook
+
+  useEffect(()=>{
+    if(inView){
+      animation.start({
+        x:0,
+        transition:{
+          type:"spring", duration: 2, bounce: 0.4
+        }
+      })
+    }
+    if(!inView){
+      animation.start({x:'-100vw'})
+    }
+    console.log("user Effect hook in view = ", inView)
+  },[inView])
+
   return (
-      <div className={styles.container}>
-        <div className={styles.aboutLeft}>
-        <Image className='waveEmoji' src="/Emoji.png" alt="waving hand emoji" width="40" height="40"/>
+
+      <div ref={ref} className={styles.container}>
+        <motion.div
+      animate={animation}
+      >
+          <Image
+            className="waveEmoji"
+            src="/Emoji.png"
+            alt="waving hand emoji"
+            width="40"
+            height="40"
+          />
           <h1 className={styles.aboutTextSmall}>Hello, Im Jamel.</h1>
           <h1 className={styles.aboutTextBig}>Front-End</h1>
           <h1 className={styles.aboutTextBig}>Web Developer</h1>
           <h1 className={styles.aboutTextSmall}>based in Vancouver, BC.</h1>
-        </div>
-        <div className={styles.aboutRight}>
+        </motion.div>
+        <motion.div
+      // initial={{x: "100vw"}}
+      animate={animation}
+      // transition={{type: 'string', duration: 1.25, bounce: .3}} className={styles.aboutRight}
+      >
           <Image
-          className={styles.image}
-          alt="a photo of jamel with graphics"
-          src="/group-11.png"
-          width="375px"
-          height="375px"
+            className={styles.image}
+            alt="a photo of jamel with graphics"
+            src="/group-11.png"
+            width="400px"
+            height="400px"
           />
-        </div>
+        </motion.div>
       </div>
+    // {/* </motion.div> */}
   );
 }
