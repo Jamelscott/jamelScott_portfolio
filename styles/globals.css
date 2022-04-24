@@ -105,7 +105,7 @@ a {
 }
 .waveEmoji{
   animation: rotation 1s linear;
-  animation-delay: .7s;
+  animation-delay: 1.5s;
   transition: all 0.3s ease-in-out 0s;
 }
 .waveEmoji:hover{

@@ -80,7 +80,7 @@
 
 }
 .resumeButton{
-    background-color: var(--accent-color);
+    background-color: #39683f;
     color: white;
     font-size: 15px;
     border-radius: 6px;
@@ -91,7 +91,7 @@
     transition: all .4s ease;
 }
 .resumeButton:hover{
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 3px 3px 3px black;
     transition: all .4s ease;
     font-size: 16px;
 }

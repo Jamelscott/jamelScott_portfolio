@@ -11,28 +11,46 @@ export default function About() {
   const {ref, inView} = useInView({
     threshold: 0.2
   }) // inView = boolean (in view or not) // ref = reference to element
-  const animation = useAnimation() // initiate useAnimation hook
+  const animation1 = useAnimation() // initiate useAnimation hook
+  const animation2 = useAnimation() // initiate useAnimation hook
 
   useEffect(()=>{
     if(inView){
-      animation.start({
+      animation1.start({
         x:0,
         transition:{
-          type:"spring", duration: 2, bounce: 0.4
+          type:"spring", duration: 2, bounce: 0.2
         }
       })
     }
     if(!inView){
-      animation.start({x:'-100vw'})
+      animation1.start({x:'-100vw'})
     }
-    console.log("user Effect hook in view = ", inView)
+    // console.log("user Effect hook in view = ", inView)
+  },[inView])
+
+  useEffect(()=>{
+    if(inView){
+    
+      animation2.start({
+        x:0,
+        transition:{
+           duration: 1.5,
+           delay: 1
+        }
+      })
+    }
+    if(!inView){
+      animation2.start({x:'-500vw'})
+    }
+    // console.log("user Effect hook in view = ", inView)
   },[inView])
 
   return (
 
       <div ref={ref} className={styles.container}>
         <motion.div
-      animate={animation}
+      animate={animation1}
       >
           <Image
             className="waveEmoji"
@@ -48,7 +66,7 @@ export default function About() {
         </motion.div>
         <motion.div
       // initial={{x: "100vw"}}
-      animate={animation}
+      animate={animation1}
       // transition={{type: 'string', duration: 1.25, bounce: .3}} className={styles.aboutRight}
       >
           <Image
