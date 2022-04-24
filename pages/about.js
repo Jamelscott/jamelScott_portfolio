@@ -60,7 +60,7 @@ export default function About() {
             height="40"
           />
           <h1 className={styles.aboutTextSmall}>Hello, Im Jamel.</h1>
-          <h1 className={styles.aboutTextBig}>Front-End</h1>
+          <h1 className={styles.aboutTextBig}>Full-Stack</h1>
           <h1 className={styles.aboutTextBig}>Web Developer</h1>
           <h1 className={styles.aboutTextSmall}>based in Vancouver, BC.</h1>
         </motion.div>
