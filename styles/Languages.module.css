@@ -51,7 +51,6 @@
     .languageContainer{
         width: var(--middle-width);
         margin-bottom: 20px;
-        text-align: center;
     }
     .languages{
         width: var(--middle-width);
