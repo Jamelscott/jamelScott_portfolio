@@ -46,6 +46,8 @@ export default function About() {
     // console.log("user Effect hook in view = ", inView)
   },[inView])
 
+  const apost = "'"
+
   return (
 
       <div ref={ref} className={styles.container}>
@@ -59,7 +61,7 @@ export default function About() {
             width="40"
             height="40"
           />
-          <h1 className={styles.aboutTextSmall}>Hello, I'm Jamel.</h1>
+          <h1 className={styles.aboutTextSmall}>Hello, I{apost}m Jamel.</h1>
           <h1 className={styles.aboutTextBig}>Full-Stack</h1>
           <h1 className={styles.aboutTextBig}>Web Developer</h1>
           <h1 className={styles.aboutTextSmall}>based in Vancouver, BC.</h1>
