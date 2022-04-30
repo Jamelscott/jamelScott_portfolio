@@ -6,21 +6,18 @@ import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
 
-
 function Languages() {
-
   const { ref, inView } = useInView({
     // threshold: 0.2,
   });
 
   const controls = useAnimation();
 
-  useEffect(()=>{
-
-    if(inView){
-      controls.start(i => ({
+  useEffect(() => {
+    if (inView) {
+      controls.start((i) => ({
         x: 0,
-        opacity:1,
+        opacity: 1,
         transition: {
           type: 'spring',
           duration: 6,
@@ -30,31 +27,30 @@ function Languages() {
         // animate:{scale: 2},
       }));
       // controls.start("hidden")
-      console.log("in view")
+      console.log('in view');
     }
 
-    if(!inView){
-      controls.start({ 
+    if (!inView) {
+      controls.start({
         // x: '100vw',
-        opacity: 0
-       });
+        opacity: 0,
+      });
       // controls.start({
       //   visible: {
       //     opacity: 1
       //   }
       // })
     }
-  },[inView])
+  }, [inView]);
 
   const mappedImages = languages.map((element, idx) => {
-
-
     return (
       <motion.div
-       custom={idx+1}
-       animate={controls}
-       className={styles.logoDiv} 
-       key={`logo-${idx}`}>
+        custom={idx + 1}
+        animate={controls}
+        className={styles.logoDiv}
+        key={`logo-${idx}`}
+      >
         <Image
           className={styles.logos}
           alt={element.name}
@@ -74,13 +70,18 @@ function Languages() {
       <div ref={ref} className={styles.languages}>
         {mappedImages}
         <div className={styles.logoDivFigma}>
-          <Image
-            // className={styles.logos}
-            alt="figma-logo"
-            src="/languages_icons/figma.png"
-            layout="fill"
-            objectFit="cover"
-          />
+          <motion.div 
+          custom={2} 
+          animate={controls}
+          >
+            <Image
+              className={styles.logos}
+              alt="figma-logo"
+              src="/languages_icons/figma.png"
+              layout="fill"
+              objectFit="cover"
+            />
+          </motion.div>
         </div>
       </div>
     </div>
