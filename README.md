@@ -1,6 +1,7 @@
 ## Jamel's Portfolio
 
-deployment: www.jamelscott.dev
+deployment: 
+www.jamelscott.dev
 
 technologies used:
 * React
