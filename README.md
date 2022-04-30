@@ -1,6 +1,5 @@
 ## Jamel's Portfolio
 
-deployment: 
 www.jamelscott.dev
 
 technologies used:
