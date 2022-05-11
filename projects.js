@@ -1,8 +1,8 @@
 export const projects = [
   {
-    name: 'Crossword Countdown',
+    name: 'WordSearch Countdown',
     description:
-      "Enjoy some classic crossword puzzles at three difficulties. But don't let time go out!",
+      "Enjoy some classic word search puzzles at three difficulties. But don't let time go out!",
     gitHub: 'https://github.com/Jamelscott/WordSearch-Countdown',
     deploy: 'https://jamelscott.github.io/WordSearch-Countdown/',
     image: "/countdown.PNG"
