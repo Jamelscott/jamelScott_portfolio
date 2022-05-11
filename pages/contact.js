@@ -1,6 +1,8 @@
 import styles from '../styles/Contact.module.css';
 
 function Contact() {
+
+  let x = "'"
   return (
     <div className={styles.contactContainer}>
       <div className={styles.contactLeft}>
@@ -8,7 +10,7 @@ function Contact() {
       <div className={styles.contactRight}>
         <h2 className={styles.knowMore}  id='contact-me'>Want to know more?</h2>
         <h2 style={{marginTop:0 }}>
-          Contact me, lets make <span className={styles.rainbow}>magic</span> together.
+          Contact me, let{x}s make <span className={styles.rainbow}>magic</span> together.
         </h2>
         <form action="https://formsubmit.co/itsjamelscott@gmail.com" method="POST" className={styles.contactForm}>
           {/* Name */}
