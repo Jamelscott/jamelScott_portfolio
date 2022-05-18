@@ -35,11 +35,11 @@ function Languages() {
         // x: '100vw',
         opacity: 0,
       });
-      // controls.start({
-      //   visible: {
-      //     opacity: 1
-      //   }
-      // })
+      controls.start({
+        visible: {
+          opacity: 1,
+        },
+      });
     }
   }, [inView]);
 
@@ -70,10 +70,7 @@ function Languages() {
       <div ref={ref} className={styles.languages}>
         {mappedImages}
         <div className={styles.logoDivFigma}>
-          <motion.div 
-          custom={2} 
-          animate={controls}
-          >
+          <motion.div custom={2} animate={controls}>
             <Image
               className={styles.logos}
               alt="figma-logo"
