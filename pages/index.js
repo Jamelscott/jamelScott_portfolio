@@ -16,26 +16,24 @@ export default function Projects() {
 
   useEffect(() => {
     if (inView) {
-      animation1.start(i =>({
+      animation1.start((i) => ({
         x: 0,
         transition: {
           type: 'spring',
           duration: 2,
           bounce: 0,
-          delay: `.${i}`
-          
+          delay: `.${i}`,
         },
         // animate:{scale: 2},
       }));
     }
     if (!inView) {
       animation1.start({ x: '-400vw' });
-
     }
   }, [inView]);
   const allProjects = projects.map((project, idx) => {
     return (
-      <motion.div custom={idx}  key={`project-div-${idx}`} animate={animation1}>
+      <motion.div custom={idx} key={`project-div-${idx}`} animate={animation1}>
         {/* {console.log(`animation${idx+1}`)} */}
         <div key={`project-div-${idx}`} className={styles.projectDiv}>
           <Image
@@ -83,7 +81,9 @@ export default function Projects() {
   return (
     <div id="featured-projects" className={styles.allProjectsDiv}>
       <h2 style={{ marginBottom: '0px' }}>Featured Projects:</h2>
-      <div  ref={ref}  className={styles.allProjectsDiv}>{allProjects}</div>
+      <div ref={ref} className={styles.allProjectsDiv}>
+        {allProjects}
+      </div>
     </div>
   );
 }
