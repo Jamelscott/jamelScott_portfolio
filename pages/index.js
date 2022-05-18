@@ -14,26 +14,36 @@ export default function Projects() {
   const animation2 = useAnimation(); // initiate useAnimation hook
   const animation3 = useAnimation(); // initiate useAnimation hook
 
-  useEffect(() => {
-    if (inView) {
-      animation1.start((i) => ({
-        x: 0,
-        transition: {
-          type: 'spring',
-          duration: 2,
-          bounce: 0,
-          delay: `.${i}`,
-        },
-        // animate:{scale: 2},
-      }));
-    }
-    if (!inView) {
-      animation1.start({ x: '-400vw' });
-    }
-  }, [inView]);
+  const animation = {
+    start: {
+      scale: 0,
+      opacity: 0,
+      transition: {
+        type: 'spring',
+        duration: 2,
+        bounce: 0.2,
+      },
+    },
+    end: {
+      scale: 1,
+      opacity: 1,
+      transition: {
+        type: 'spring',
+        duration: 2,
+        bounce: 0.2,
+      },
+    },
+  };
+
   const allProjects = projects.map((project, idx) => {
     return (
-      <motion.div custom={idx} key={`project-div-${idx}`} animate={animation1}>
+      <motion.div
+        initial="start"
+        animate="end"
+        custom={idx}
+        key={`project-div-${idx}`}
+        variants={animation}
+      >
         {/* {console.log(`animation${idx+1}`)} */}
         <div key={`project-div-${idx}`} className={styles.projectDiv}>
           <Image

@@ -10,7 +10,7 @@ function Navbar() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://docs.google.com/document/d/19MwImIB9izuaz17Qdk7iSR5Hz_AvMy7XFyiYc4s8SO8/edit?usp=sharing"
+          href="https://docs.google.com/document/d/14i5x15uFAQ3YILP9iyQAq4KCIlUQvCw-UTSGT12d3Kw/edit"
         >
           <button className={styles.resumeButton}>Resume</button>
         </a>
@@ -53,9 +53,9 @@ function Navbar() {
             width="25px"
           />
         </a>
-        <a 
-        className={styles.githubButton} 
-        href="mailto: itsjamelscott@gmail.com"
+        <a
+          className={styles.githubButton}
+          href="mailto: itsjamelscott@gmail.com"
         >
           <Image
             height="25px"
