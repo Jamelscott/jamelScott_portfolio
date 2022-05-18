@@ -24,6 +24,14 @@ export const projects = [
     image: '/ramen.PNG',
   },
   {
+    name: 'LFG - Looking for Group',
+    description:
+      'Find, join or CRUD gaming parties for your favorite games. Filtering through parties is a breeze on our app.',
+    gitHub: 'https://github.com/Jamelscott/LFG-client',
+    deploy: 'https://lookingforgroup.netlify.app/',
+    image: '/lfg.png',
+  },
+  {
     name: 'WordSearch Countdown',
     description:
       "Enjoy some classic word search puzzles at three difficulties. But don't let time go out!",
