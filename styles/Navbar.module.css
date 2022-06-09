@@ -1,141 +1,138 @@
-.container{
-    height: 60px;
-    background-color: var(--secondary-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
-    width: var(--overall-width);
-    position: sticky;
-    top: 0rem;
-    z-index: 9999 ;
+.container {
+  height: 60px;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: var(--overall-width);
+  position: sticky;
+  top: 0rem;
+  z-index: 9999;
 }
-.centerDiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 75px;
-    margin-top: 0;
-    padding-top: 0px;
-    width: 800px;
-    padding-bottom: 5px;
+.centerDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+  margin-top: 0;
+  padding-top: 0px;
+  width: 800px;
+  padding-bottom: 5px;
 }
-.centerDivText{
-    display: flex;
-    justify-content: center;
-    color: var(--tertiary-color);
-    background-color: var(--seondary-color);
-    height: 28px;
-    width: 30px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid black;
-    /* text-decoration-color: black; */
-    font-weight: 400;
-    font-size: 16px;
-    transition: all .4s ease;
+.centerDivText {
+  display: flex;
+  justify-content: center;
+  color: var(--tertiary-color);
+  background-color: var(--seondary-color);
+  height: 28px;
+  width: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  /* text-decoration-color: black; */
+  font-weight: 400;
+  font-size: 16px;
+  transition: all 0.4s ease;
+  cursor: pointer;
 }
-.centerDivText:hover{
-    background-color: var(--secondary-color);
-    width: 50px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    padding-bottom: 2px;
-    text-decoration-color: white;
-    font-weight: -500;
-    transition: all .4s ease;
-    transform: scale(1.2);
+.centerDivText:hover {
+  background-color: var(--secondary-color);
+  width: 50px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding-bottom: 2px;
+  text-decoration-color: white;
+  font-weight: -500;
+  transition: all 0.4s ease;
+  transform: scale(1.2);
 }
-.linksDiv{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 12px;
-    margin-right: 20px;
-    width: 150px;
+.linksDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-right: 20px;
+  width: 150px;
 }
 
-.githubButton{
-    transition: all .4s ease;
-    width: 30px;
-
+.githubButton {
+  transition: all 0.4s ease;
+  width: 30px;
 }
-.githubButton:hover{
-   transform: scale(1.25, 1.25) ;
-   transition: all .4s ease;
+.githubButton:hover {
+  transform: scale(1.25, 1.25);
+  transition: all 0.4s ease;
 }
-.resumeDiv{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 120px;
-    margin-left: 20px;
-    padding-bottom: 8px;
-
+.resumeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 120px;
+  margin-left: 20px;
+  padding-bottom: 8px;
 }
-.resumeButton{
-    background-color: #39683f;
-    color: white;
-    font-size: 15px;
-    border-radius: 6px;
-    width: 120px;
-    margin-top: 5px;
-    height: 40px;
-    box-shadow: 1px 1px 1px black;
-    transition: all .4s ease;
+.resumeButton {
+  background-color: #39683f;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  width: 120px;
+  margin-top: 5px;
+  height: 40px;
+  box-shadow: 3px 3px 3px 3px rgba(4, 36, 77, 0.377);
+  transition: all 0.6s ease;
+  cursor: pointer;
 }
-.resumeButton:hover{
-    box-shadow: 3px 3px 3px black;
-    transition: all .4s ease;
-    font-size: 16px;
+.resumeButton:hover {
+  box-shadow: 0 0 5px 5px rgba(9, 110, 243, 0.377);
+  transition: all 0.6s ease;
 }
-.resumeButton:active{
-    box-shadow: inset 2px 2px 2px black;
-    font-size: 13px;
+.resumeButton:active {
+  box-shadow: inset 2px 2px 2px black;
+  font-size: 13px;
 }
 
 /* Nest Hub */
-@media screen and (max-width:1400px) {
-    
-    .container{
-        width: var(--middle-width);
-        margin-bottom: 40px;
-    }
+@media screen and (max-width: 1400px) {
+  .container {
+    width: var(--middle-width);
+    margin-bottom: 40px;
+  }
 }
 /* iphone 12 Pro */
-@media screen and (max-width:800px) {
-    
-    .container{
-        width: var(--mobile-width)
-    }
-    .resumeButton{
-        font-size: 10px;
-        width: 80px;
-        height: 30px;
-        box-shadow: 1px 1px 1px black;
-    }
-    .resumeButton:hover{
-        font-size: 11px;
-    }
-    .centerDivText{
-        height: 28px;
-        width: 20px;
-        font-size: 12px;
-    }
-    /* .linksDiv{
+@media screen and (max-width: 800px) {
+  .container {
+    width: var(--mobile-width);
+  }
+  .resumeButton {
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    box-shadow: 1px 1px 1px black;
+  }
+  .resumeButton:hover {
+    font-size: 11px;
+  }
+  .centerDivText {
+    height: 28px;
+    width: 20px;
+    font-size: 12px;
+  }
+  /* .linksDiv{
         display: none;
     }     */
-    .centerDiv{
-        display: none;
-        width: 50px;
-    }
-    .linksDiv{
-        gap: 20px;
-    }
+  .centerDiv {
+    display: none;
+    width: 50px;
+  }
+  .linksDiv {
+    gap: 20px;
+  }
 }

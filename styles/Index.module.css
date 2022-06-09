@@ -47,7 +47,7 @@
     box-shadow: 2px 2px 2px black;
     transition: all .4s ease;
     font-size: 12px;
-    
+    cursor: pointer;
 }
 .githubButton{
     font-family: 'Poppins';
@@ -63,6 +63,7 @@
     box-shadow: 2px 2px 2px black;
     transition: all .4s ease;
     font-size: 12px;
+    cursor: pointer;
 }
 .githubButton:hover{
     box-shadow: 4px 4px 4px black;
