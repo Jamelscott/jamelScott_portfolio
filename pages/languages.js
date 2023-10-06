@@ -1,10 +1,10 @@
-import { languages } from '../projects';
-import Image from 'next/image';
-import styles from '../styles/Languages.module.css';
-import { motion } from 'framer-motion';
-import { useEffect } from 'react';
-import { useInView } from 'react-intersection-observer';
-import { useAnimation } from 'framer-motion';
+import { languages } from "../projects";
+import Image from "next/image";
+import styles from "../styles/Languages.module.css";
+import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
 
 function Languages() {
   const { ref, inView } = useInView({
@@ -19,7 +19,7 @@ function Languages() {
         x: 0,
         opacity: 1,
         transition: {
-          type: 'spring',
+          type: "spring",
           duration: 6,
           bounce: 0.05,
           // delay: `.${i}`
@@ -27,7 +27,7 @@ function Languages() {
         // animate:{scale: 2},
       }));
       // controls.start("hidden")
-      console.log('in view');
+      console.log("in view");
     }
 
     if (!inView) {
@@ -41,7 +41,7 @@ function Languages() {
         },
       });
     }
-  }, [inView]);
+  }, [inView, controls]);
 
   const mappedImages = languages.map((element, idx) => {
     return (
