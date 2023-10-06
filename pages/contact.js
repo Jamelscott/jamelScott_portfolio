@@ -20,6 +20,7 @@ function Contact() {
         >
           {/* Name */}
           <label htmlFor="contact-name"></label>
+          {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input> */}
           <input
             required
             className={styles.contactInput}
