@@ -20,7 +20,7 @@ export const projects = [
     description:
       "Find the best ramen in the city based on our algorithm. Rate and review on GitRamen when your bowl is empty.",
     gitHub: "https://github.com/Jamelscott/GitRamen",
-    deploy: "https://github.com/Jamelscott/jamelScott_portfolio.git/",
+    deploy: "https://web-production-3541.up.railway.app/",
     image: "/ramen.PNG",
   },
   {
