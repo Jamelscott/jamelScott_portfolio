@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Robota: Ukraine Aid",
     description:
-      "A hackathon winning project that allows users to filter through job postings and post their own jobs to support the ukrainian community.",
+      "A hackathon winning project that allows users to filter through job postings and post their own jobs to support the ukrainian community in Washington state.",
     gitHub: "https://github.com/GA-Hackathon-Ukraine/Front-End",
     deploy: "https://robota-ukraine.netlify.app/",
     image: "/robota.svg",
@@ -10,7 +10,7 @@ export const projects = [
   {
     name: "Artificial Intelligence AMA",
     description:
-      "A project I developed over two days that makes API calls to OpenAI to allow users to get only the most quality answers to life’s questions.",
+      "Using AI, I developed this app to allow users to field questions to 4 different AI models.",
     gitHub: "https://github.com/Jamelscott/Artificial-Intelligence-AMA",
     deploy: "https://artificial-intelligence-ama.netlify.app/",
     image: "/AMA.svg",
@@ -18,7 +18,7 @@ export const projects = [
   {
     name: "GitRamen",
     description:
-      "Find the best ramen in the city based on our algorithm. Rate and review on GitRamen when your bowl is empty.",
+      "Find the best ramen in the city based on our algorithm. Login, browse and rate the best Ramen restaurants in the greater Vancouver area.",
     gitHub: "https://github.com/Jamelscott/GitRamen",
     deploy: "https://web-production-3541.up.railway.app/",
     image: "/ramen.PNG",
@@ -26,7 +26,7 @@ export const projects = [
   {
     name: "LFG - Looking for Group",
     description:
-      "Find, join or CRUD gaming parties for your favorite games. Filtering through parties is a breeze on our app.",
+      "LFG is an app built to find friends to play videos games with. You can filter through existing parties or create your own then chat amonst your teammates.",
     gitHub: "https://github.com/Jamelscott/LFG-client",
     deploy: "https://lookingforgroup.netlify.app/",
     image: "/lfg.png",
@@ -34,7 +34,7 @@ export const projects = [
   {
     name: "WordSearch Countdown",
     description:
-      "Enjoy some classic word search puzzles at three difficulties. But don't let time go out!",
+      "A classic word search game with three levels of difficulty. Be sure to not let the time run out!",
     gitHub: "https://github.com/Jamelscott/WordSearch-Countdown",
     deploy: "https://jamelscott.github.io/WordSearch-Countdown/",
     image: "/countdown.PNG",
@@ -42,7 +42,7 @@ export const projects = [
   {
     name: "DevelUp +",
     description:
-      "Study from a range of community flashcard decks or create your own. Need more active recall and spaced repitition? We've got you covered.",
+      "DevelUp is a spaced repetition flashcard application that helps users memorize and retain information more effectively through efficient review and recall.",
     gitHub: "https://github.com/Jamelscott/Develup-client",
     deploy: "https://cheerful-choux-1b67ff.netlify.app",
     image: "/develup.PNG",
