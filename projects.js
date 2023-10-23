@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "Robota: Ukraine Aid",
     description:
-      "A hackathon winning project that allows users to filter through job postings and post their own jobs to support the ukrainian community in Washington state.",
+      "A hackathon winning project that allows users to filter through job postings and post their own jobs to support the Ukrainian community in Washington state.",
     gitHub: "https://github.com/GA-Hackathon-Ukraine/Front-End",
     deploy: "https://robota-ukraine.netlify.app/",
     image: "/robota.svg",
