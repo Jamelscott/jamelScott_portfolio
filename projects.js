@@ -47,6 +47,14 @@ export const projects = [
     deploy: "https://cheerful-choux-1b67ff.netlify.app",
     image: "/develup.PNG",
   },
+  {
+    name: "Grocery List",
+    description:
+      "A grocery list for your next trip to the store. Login or use the visitor credentials to build your own list.",
+    gitHub: "https://github.com/Jamelscott/Grocery-List",
+    deploy: "https://grocery-list-jamel.netlify.app/users/65441c4257f317fd1694448f",
+    image: "/grocerylist.png",
+  },
 ];
 
 export const languages = [
