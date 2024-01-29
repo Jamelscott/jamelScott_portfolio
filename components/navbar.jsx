@@ -10,7 +10,7 @@ function Navbar() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://docs.google.com/document/d/14i5x15uFAQ3YILP9iyQAq4KCIlUQvCw-UTSGT12d3Kw/edit"
+          href="https://docs.google.com/document/d/1Rcy-B2kJyKtn3WOndPZOoZqlvF5C_EtQ0FPb7bBI0jg/edit?usp=sharing"
         >
           <button className={styles.resumeButton}>Resume</button>
         </a>
