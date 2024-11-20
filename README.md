@@ -1,9 +1,10 @@
 ## Jamel's Portfolio
 
-www.jamelscott.dev
+www.jamelscott.me
 
 technologies used:
-* React
-* Next.js
-* Framer Motion
-* React Intersection Observer
+
+- React
+- Next.js
+- Framer Motion
+- React Intersection Observer
